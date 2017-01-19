@@ -6,7 +6,7 @@ $border-radius-base: 4px !default;
 $padding-base-vertical: 14px !default;
 
 $brand-primary: #18171d !default;
-$brand-secondary: #3f95ea !default;
+$brand-secondary: #45de52 !default;
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -519,6 +519,10 @@ h1, h2, h3, h4, h5, h6 {
         color: rgba(255, 255, 255, 1);
         border-bottom: 1px dashed rgba(255, 255, 255, 1);
       }
+
+      &.to-animate {
+        border: none;
+      }
     }
     h1 {
       font-size: 50px;
@@ -618,7 +622,7 @@ h1, h2, h3, h4, h5, h6 {
       z-index: 10;
       .fh5co-intro-icon {
         font-size: 50px;
-        color: $brand-primary;
+        color: $brand-secondary;
         margin-bottom: 30px;
         display: block;
       }
@@ -636,7 +640,7 @@ h1, h2, h3, h4, h5, h6 {
       > .fh5co-text {
         color: $brand-white;
         .fh5co-intro-icon {
-          color: $brand-white;
+          color: $brand-secondary;
         }
 
       }
