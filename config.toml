@@ -1,21 +1,20 @@
 # Page settings
-baseurl = "localhost:1313"
-title = "Elate theme"
+baseurl = "http://greencaps.rocks/"
+title = "Green caps - geeks ready to rescue your project"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
 [params]
   
   # Meta
-  author = ""
-  description = ""
-  email = ""
+  author = "Green caps"
+  description = "Green caps - geeks for the rescue of your project"
+  email = "info@greencaps.rocks"
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "Green caps"
     home = "Home"
     work = "Work"
-    testimonials = "Testimonials"
     services = "Services"
     about = "About"
     contact = "Contact"
