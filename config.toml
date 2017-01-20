@@ -9,6 +9,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = "Green caps"
   description = "Green caps - geeks for the rescue of your project"
+  keywords = "Ruby on Rails development,Front-end development,Microservices,HTML&CSS layout,Web design,RoR team,React.js,Node.js,Docker"
   email = "info@greencaps.rocks"
   # Navigation
   [params.navigation]
