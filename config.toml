@@ -15,8 +15,8 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "Green caps"
     home = "Home"
-    work = "Work"
-    services = "Services"
+    work = "Portfolio"
+    services = "Technologies"
     about = "About"
     contact = "Contact"
 
@@ -37,7 +37,7 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    subtitle = 'Geeks wearing silly green caps are going to rescue your projects. <br /> Beware!'
+    subtitle = 'Geeks wearing silly green caps are going to rescue your project. <br /> Beware!'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -120,27 +120,28 @@ theme = "hugo-elate-theme"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Technologies"
+    description = "We are using bleeding edge Open Source technologies in our work."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "Back-End"
+      description = "We use <span class='ruby-lang'>Ruby</span> and <span class='ror-lang'>Ruby On Rails</span> for most of our projects. However, when it is not enough - when we need really high perfomance - we add <span class='go-lang'>Go</span> to the mix."
+      icon = "icon-layers"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = "Front-end"
+      description = "<span class='react-lang'>React</span> with <span class='redux-lang'>Redux</span> is the our JavaScript framework. We use <span class='node-lang'>Node.js</span> and <span class='es6-lang'>ES6</span>, the latest version of JavaScript, for our front-end development."
+      icon = "icon-screen-desktop"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+    [[params.services.item]]
+      title = "Mobile"
+      description = "Though we use conventional <span class='swift-lang'>Swift</span> for iOS development and <span class='java-lang'>Java</span> for Android development, we also can use <span class='xamarin-lang'>Xamarin</span> and <span class='ionic-lang'>Ionic</span> if it suits best for your project."
+      icon = "icon-screen-smartphone"
+
+    [[params.services.item]]
+      title = "Infrastructure"
+      description = "We are using <span class='docker-lang'>Docker</span> for containerization, <span class='aws-lang'>Amazon Web services</span> as a platform and <span class='ansible-lang'>Ansible</span> to automate infrastracture management."
+      icon = "icon-wrench"
 
   # About section
   [params.about]
