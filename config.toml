@@ -37,7 +37,7 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    subtitle = 'Geeks wearing silly green caps are going to rescue your project. <br /> Beware!'
+    subtitle = '<br />Geeks wearing silly green caps are going to rescue your project. <br /> Beware!'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
