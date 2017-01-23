@@ -14,7 +14,6 @@ build: clean compile-sass
 	hugo
 
 deploy: build
-	cd public;\
-	surge;
+	surge --project public;
 
 .PHONY: start clean compile-sass watch-sass build
