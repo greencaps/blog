@@ -10,7 +10,7 @@
     "build:hugo": "hugo",
     "build": "npm run clean && npm run scss && npm run build:hugo",
     "start": "hugo server",
-    "deploy": "npm run build && surge --project ./public --domain greencaps.surge.sh"
+    "deploy": "npm run build && surge --project ./public --domain greencaps.rocks"
   },
   "repository": {
     "type": "git",
