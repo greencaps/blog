@@ -193,7 +193,7 @@ theme = "hugo-elate-theme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-skype", "esherkunov"],
-        ["icon-envelope", "info@greencaps.rocks"],
+        ["icon-envelope", '<a href="mailto:info@greencaps.rocks">info@greencaps.rocks</a>'],
         ["icon-globe", '<a href="http://greencaps.rocks/" target="_blank">greencaps.rocks</a>']
       ]
 
