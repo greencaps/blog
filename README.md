@@ -1,5 +1,7 @@
 # Green caps' official blog sources.
 
+[![Build Status](https://travis-ci.org/greencaps/blog.svg?branch=master)](https://travis-ci.org/greencaps/blog)
+
 It is a [Hugo](http://gohugo.io/) project.
 
 It is using theme Elate by [freehtml5.co](https://freehtml5.co/) which was ported for Hugo by [Pieter Saey](http://saey55.gitlab.io/pietercv/).
