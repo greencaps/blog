@@ -1,10 +1,10 @@
 start:
 	hugo server
 
-compile-sass:
+compile-sass: check-dirs
 	sass sass/style.scss > static/css/style.css
 
-watch-sass:
+watch-sass: check-dirs
 	sass --watch sass/style.scss:static/css/style.css
 
 clean:
@@ -15,5 +15,8 @@ build: clean compile-sass
 
 deploy: build
 	surge --project public;
+
+check-dirs:
+	mkdir -p static/css
 
 .PHONY: start clean compile-sass watch-sass build
