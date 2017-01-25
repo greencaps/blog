@@ -9,8 +9,7 @@ How to start development:
 1. Go [get Hugo](http://gohugo.io/overview/installing/).
 2. [Install Sass](http://sass-lang.com/install).
 3. Clone this repo: `git clone git@github.com:greencaps/blog.git`.
-4. Install submodules `git submodule init && git submodule update`.
-5. Compile sass `make compile-sass`.
-6. Start Hugo server `make start`.
+4. Compile sass `make compile-sass`.
+5. Start Hugo server `make start`.
 
 You can also see [Makefile](/Makefile) for other available tasks.
