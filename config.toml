@@ -206,7 +206,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Alexander Ulizko"
       position = "Full-stack JavaScript developer"
-      description = "Our front-end wizard. Uses React.js and Node.js as his designated weapon. Also loves Open Source: check his <a href='https://github.com/aulizko' target='_blank'>github</a> account."
+      description = "Our front-end wizard. Uses React.js and Node.js as his designated weapon. Also huge fan of Open Source, check his <a href='https://github.com/aulizko' target='_blank'>github</a> account."
       img = "alexander-ulizko.jpg"
       alt = "Alexander Ulizko"
 
