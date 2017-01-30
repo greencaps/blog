@@ -13,7 +13,7 @@ theme = "hugo-elate-theme"
   email = "info@greencaps.rocks"
   # Navigation
   [params.navigation]
-    brand = "Green caps"
+    brand = "Green Caps"
     home = "Home"
     work = "Portfolio"
     services = "Technologies"
@@ -178,7 +178,7 @@ theme = "hugo-elate-theme"
         ["icon-dribbble", "#"]
       ]
 
-  
+
     [[params.about.item]]
       name = "Player 4"
       position = "Web Designer"
