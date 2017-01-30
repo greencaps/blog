@@ -7,8 +7,8 @@ theme = "hugo-elate-theme"
 [params]
 
   # Meta
-  author = "Green caps"
-  description = "Green caps - geeks for the rescue of your project"
+  author = "Green Caps Team"
+  description = "Green Caps - geeks for the rescue of your project"
   keywords = "Ruby on Rails development,Front-end development,Microservices,HTML&CSS layout,Web design,RoR team,React.js,Node.js,Docker"
   email = "info@greencaps.rocks"
   # Navigation
@@ -208,11 +208,11 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    title = "Get in touch"
+    title = "Hire Us"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-skype", "esherkunov"],
+        ["icon-skype", '<a href="skype:esherkunov">esherkunov</a>'],
         ["icon-envelope", '<a href="mailto:info@greencaps.rocks">info@greencaps.rocks</a>'],
         ["icon-globe", '<a href="http://greencaps.rocks/" target="_blank">greencaps.rocks</a>']
       ]
