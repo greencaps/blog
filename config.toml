@@ -213,7 +213,7 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    title = "Get in touch"
+    title = "Hire Us"
 
     # Available icons: http://simplelineicons.com/
     details = [
