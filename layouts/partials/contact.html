@@ -21,6 +21,7 @@
                 <h3>{{ with .Site.Params.contact.form }}{{ . | markdownify }}{{ end }}</h3>
 
                 <form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
+                    <input type="hidden" name="_subject" value="Отправка формы Hire Us на сайте greencaps.rocks">
                     <div class="form-group ">
                         {{ with .Site.Params.contact.name }}
                         <label for="name" class="sr-only">{{ . | markdownify }}</label>
