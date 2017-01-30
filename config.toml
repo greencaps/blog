@@ -192,16 +192,11 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Player 5"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
+      name = "Ivan Bystrov"
+      position = "Ruby Developer"
+      description = "Back-end developer. Despite the fact that he uses Ruby to do his tasks, he is our Go evangelist."
+      img = "ivan-bystrov.jpg"
+      alt = "Ivan Bystrov"
 
     [[params.about.item]]
       name = "Alexander Ulizko"
