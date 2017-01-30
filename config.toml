@@ -77,9 +77,9 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = 'This is not all our projects. To see full list, visit <a href="/portfolio/">portfolio</a>.'
+    title = "Portfolio"
+    description = "Keep in mind that the following projects is but a tiny fraction of our true capabilities."
+    footertext = ''
 
     [[params.work.row]]
       img = "work_1.jpg"
