@@ -5,7 +5,7 @@ languageCode = "en-us"
 theme = "hugo-elate-theme"
 
 [params]
-  
+
   # Meta
   author = "Green caps"
   description = "Green caps - geeks for the rescue of your project"
@@ -22,7 +22,7 @@ theme = "hugo-elate-theme"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
-    
+
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
@@ -34,11 +34,11 @@ theme = "hugo-elate-theme"
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
-  
+
   # Hero section
   [params.hero]
     subtitle = '<br />Geeks wearing silly green caps are going to rescue your project. <br /> Beware!'
- 
+
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
@@ -183,7 +183,7 @@ theme = "hugo-elate-theme"
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-dribbble", "#"]
-      ]      
+      ]
 
   # Contact section
   [params.contact]
@@ -193,8 +193,7 @@ theme = "hugo-elate-theme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-skype", "esherkunov"],
-        ["icon-phone", "(999) 999 99 99"],
-        ["icon-envelope", "info@greencaps.rocks"],
+        ["icon-envelope", '<a href="mailto:info@greencaps.rocks">info@greencaps.rocks</a>'],
         ["icon-globe", '<a href="http://greencaps.rocks/" target="_blank">greencaps.rocks</a>']
       ]
 
