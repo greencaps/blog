@@ -17,7 +17,7 @@ theme = "hugo-elate-theme"
     home = "Home"
     work = "Portfolio"
     services = "Technologies"
-    about = "About"
+    about = "Team"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -67,18 +67,11 @@ theme = "hugo-elate-theme"
     icon = "icon-rocket"
     img = "img_10.jpg"
 
-  [params.intro.video]
-    enable = false
-    title = "Watch the video"
-    icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
-
-
   # Work section
   [params.work]
     enable = true
     title = "Portfolio"
-    description = "Keep in mind that the following projects is but a tiny fraction of our true capabilities."
+    description = "Keep in mind that the following projects is nothing but a tiny fraction of our true capabilities."
     footertext = ''
 
     [[params.work.row]]
@@ -146,11 +139,11 @@ theme = "hugo-elate-theme"
   # About section
   [params.about]
     enable = true
-    title = "About"
+    title = "Team"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
-      name = "Jean Smith"
+      name = "Player 1"
       position = "Web Designer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person1.jpg"
@@ -162,7 +155,7 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
+      name = "Player 2"
       position = "Web Developer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person2.jpg"
@@ -174,7 +167,7 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
+      name = "Player 3"
       position = "Web Designer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person3.jpg"
@@ -184,6 +177,38 @@ theme = "hugo-elate-theme"
         ["icon-facebook", "#"],
         ["icon-dribbble", "#"]
       ]
+
+  
+    [[params.about.item]]
+      name = "Player 4"
+      position = "Web Designer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Player 5"
+      position = "Web Developer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person2.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Alexander Ulizko"
+      position = "Full-stack JavaScript developer"
+      description = "Our front-end wizard. Uses React.js and Node.js as his designated weapon. Also loves Open Source: check his <a href='https://github.com/aulizko' target='_blank'>github</a> account."
+      img = "alexander-ulizko.jpg"
+      alt = "Alexander Ulizko"
 
   # Contact section
   [params.contact]
