@@ -2,3 +2,5 @@
 /public/
 /static/css
 /static/.sass-cache
+node_modules
+
