@@ -75,10 +75,10 @@ theme = "hugo-elate-theme"
     footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = "english-world.png"
+      alt = "English World"
+      title = "English World"
+      subtitle = "Learn you English for great good"
 
     [[params.work.row]]
       img = "work_2.jpg"
@@ -102,12 +102,6 @@ theme = "hugo-elate-theme"
       img = "work_5.jpg"
       alt = "Image5"
       title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
       subtitle = "Design"
 
   # Services section
