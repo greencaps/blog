@@ -137,41 +137,11 @@ theme = "hugo-elate-theme"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
-      name = "Player 1"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Player 2"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
       name = "Player 3"
       position = "Web Designer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person3.jpg"
       alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]
-
 
     [[params.about.item]]
       name = "Evgeny Sherkunov"
