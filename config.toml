@@ -81,27 +81,15 @@ theme = "hugo-elate-theme"
       subtitle = "Learn you English for great good"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "zephyrlab.png"
+      alt = "Zephyrlab"
+      title = "Zephyrlab"
+      subtitle = "We didn't bother to write some text here"
 
     [[params.work.row]]
       img = "work_3.jpg"
       alt = "Image3"
       title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
       subtitle = "Design"
 
   # Services section
