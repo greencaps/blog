@@ -174,16 +174,11 @@ theme = "hugo-elate-theme"
 
 
     [[params.about.item]]
-      name = "Player 4"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
+      name = "Evgeny Sherkunov"
+      position = "Full Stack Ruby On Rails Developer"
+      description = "Mostly back-end developer on Ruby or Go, but no problem in use Angular or React for front-end. There is his <a href='//sherkunov.name' target='_blank'>website</a>."
+      img = "evgeny-sherkunov.jpg"
+      alt = "Evgeny Sherkunov"
 
     [[params.about.item]]
       name = "Ivan Bystrov"
