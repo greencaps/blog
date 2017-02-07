@@ -137,11 +137,11 @@ theme = "hugo-elate-theme"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
-      name = "Player 3"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
+      name = "Alexei Sviridov"
+      position = "Web designer and Illustrator"
+      description = "His shtick is user-friendly interfaces and soul-catching graphics."
+      img = "aceed.jpg"
+      alt = "Alexei Sviridov"
 
     [[params.about.item]]
       name = "Evgeny Sherkunov"
