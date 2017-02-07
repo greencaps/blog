@@ -14,28 +14,29 @@
 
 {{ partial "intro.html" .}}
 
-{{ if .Site.Params.work.enable }}
-{{ partial "work.html" .}}
+{{ if .Site.Params.services.enable }}
+  {{ partial "services.html" .}}
 {{ end }}
 
-{{ if .Site.Params.services.enable }}
-{{ partial "services.html" .}}
+{{ if .Site.Params.work.enable }}
+  {{ partial "work.html" .}}
 {{ end }}
+
 
 {{ if .Site.Params.about.enable }}
-{{ partial "about.html" .}}
+  {{ partial "about.html" .}}
 {{ end }}
 
 {{ if .Site.Params.counters.enable }}
-{{ partial "counters.html" .}}
+  {{ partial "counters.html" .}}
 {{ end }}
 
 {{ if .Site.Params.contact.enable }}
-{{ partial "contact.html" .}}
+  {{ partial "contact.html" .}}
 {{ end }}
 
 {{ if .Site.Params.footer.enable }}
-{{ partial "footer.html" .}}
+  {{ partial "footer.html" .}}
 {{ end }}
 
 {{ partial "js.html" .}}

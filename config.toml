@@ -15,8 +15,8 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "Green Caps"
     home = "Home"
-    work = "Portfolio"
     services = "Technologies"
+    work = "Portfolio"
     about = "Team"
     contact = "Contact"
 
