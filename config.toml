@@ -60,22 +60,22 @@ theme = "hugo-elate-theme"
     footertext = ''
 
     [[params.work.row]]
-      img = "english-world.png"
+      img = "english-world.jpg"
       alt = "English World"
       title = "English World"
-      subtitle = "Learn you English for great good"
+      subtitle = "Learn you English for great good!<br /><a href='http://ew.am/'>ew.am</a>"
 
     [[params.work.row]]
-      img = "zephyrlab.png"
-      alt = "Zephyrlab"
-      title = "Zephyrlab"
-      subtitle = "We didn't bother to write some text here"
+      img = "do-it-with-love.jpg"
+      alt = "Do it with love"
+      title = "Do it with love"
+      subtitle = "We offer you to make a personal experiment and pump your actions with love.<br /><a href='http://doitwithlove.net/'>doitwithlove.net</a>"
 
     [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      img = "imboss.jpg"
+      alt = "ImBoss"
+      title = "ImBoss"
+      subtitle = "Best accounting app for entrepreneur.<br /><a href='http://imboss.ru'>imboss.ru</a>"
 
   # Services section
   [params.services]
