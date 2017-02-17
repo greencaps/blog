@@ -20,21 +20,6 @@ theme = "hugo-elate-theme"
     about = "Team"
     contact = "Contact"
 
-    # You can add custom links before or after the default links
-    # Assign a weight to define the order
-
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
-
   # Hero section
   [params.hero]
     subtitle = '<br />Geeks wearing silly green caps are going to rescue your project. <br /> Beware!'
@@ -44,28 +29,28 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
-    img = "img_7.jpg"
+    title = "Experience"
+    description = "We have spent more then <strong>30</strong> man-years developing web-related stuff. Just focus on <strong><em>what</em></strong> you are building, leave <strong><em>how</em></strong> to us."
+    url = "work"
+    button = "Portfolio"
+    icon = "icon-mustache"
+    img = "hacker-bear.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
+    title = "Bleeding edge"
+    description = "<a href='https://en.wikipedia.org/wiki/Microservices'>Microservices</a>, <a href='https://en.wikipedia.org/wiki/NoSQL'>NoSql</a>, <a href='https://en.wikipedia.org/wiki/Cloud_computing'>Cloud Computing</a>, <a href='https://en.wikipedia.org/wiki/Platform_as_a_service'>PAAS</a>, <a href='https://medium.com/@mjackson/universal-javascript-4761051b7ae9'>Universal JavaScript</a>... Sure you've heard something about it. There are lots of buzzwords nowadays. And you know what? We <em>love</em> it! We track, explore and use them with <em>passion</em> driven by geek's curiosity."
+    url = "services"
+    button = "Technologies"
+    icon = "icon-chemistry"
+    img = "buzzwords.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
+    title = "Hire our team"
+    description = "Contact us. We'll be happy to join an existing team or help you building an application from scratch."
+    url = "contact"
+    button = "Contact"
+    icon = "icon-people"
+    img = "cat-dog-group.jpg"
 
   # Work section
   [params.work]
