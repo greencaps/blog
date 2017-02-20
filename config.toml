@@ -58,12 +58,6 @@ languageCode = "en-us"
     footertext = ''
 
     [[params.work.row]]
-      img = "do-it-with-love.jpg"
-      alt = "Do it with love"
-      title = "Do it with love"
-      subtitle = "We offer you to make a personal experiment and pump your actions with love.<br /><a href='http://doitwithlove.net/'>doitwithlove.net</a>"
-
-    [[params.work.row]]
       img = "imboss.jpg"
       alt = "ImBoss"
       title = "ImBoss"
@@ -74,6 +68,12 @@ languageCode = "en-us"
       alt = "English World"
       title = "English World"
       subtitle = "Learn you English for great good!<br /><a href='http://ew.am/'>ew.am</a>"
+
+    [[params.work.row]]
+      img = "do-it-with-love.jpg"
+      alt = "Do it with love"
+      title = "Do it with love"
+      subtitle = "We offer you to make a personal experiment and pump your actions with love.<br /><a href='http://doitwithlove.net/'>doitwithlove.net</a>"
 
   # Services section
   [params.services]
