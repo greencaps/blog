@@ -142,7 +142,7 @@ languageCode = "en-us"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-skype", '<a href="skype:esherkunov">esherkunov</a>'],
+        ["icon-social-skype", '<a href="skype:esherkunov">esherkunov</a>'],
         ["icon-envelope", '<a href="mailto:info@greencaps.rocks">info@greencaps.rocks</a>'],
         ["icon-globe", '<a href="http://greencaps.rocks/" target="_blank">greencaps.rocks</a>']
       ]
