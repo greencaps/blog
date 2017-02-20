@@ -6,7 +6,10 @@
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
 					<div class="fh5co-text">
-						<i class="fh5co-intro-icon {{ .icon }}"></i>
+            {{ $pathToIcon := .icon | printf "%s%s" "icons/" | printf "%s.svg" }}
+						<span class="fh5co-intro-icon">
+              {{ partial $pathToIcon }}
+            </span>
 						<h2>{{ .title }}</h2>
 						<p>{{ .description | safeHTML }}</p>
 						<p><a url="#" data-nav-section="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>

@@ -31,7 +31,7 @@ languageCode = "en-us"
     description = "We have spent more then 30 man-years developing web-related stuff. Just focus on <strong>what</strong> you are building, leave <strong>how</strong> to us."
     url = "work"
     button = "Portfolio"
-    icon = "icon-mustache"
+   icon = "mustache"
     img = "hacker-bear.jpg"
 
   [[params.intro.item]]
@@ -39,7 +39,7 @@ languageCode = "en-us"
     description = "<a href='https://en.wikipedia.org/wiki/Microservices'>Microservices</a>, <a href='https://en.wikipedia.org/wiki/NoSQL'>NoSql</a>, <a href='https://en.wikipedia.org/wiki/Cloud_computing'>Cloud Computing</a>, <a href='https://en.wikipedia.org/wiki/Platform_as_a_service'>PAAS</a>, <a href='https://medium.com/@mjackson/universal-javascript-4761051b7ae9'>Universal JavaScript</a>... Sure you've heard something about it. There are lots of buzzwords nowadays. And you know what? We <em>love</em> it! We track, explore and use them with <em>passion</em> driven by geek's curiosity."
     url = "services"
     button = "Technologies"
-    icon = "icon-chemistry"
+    icon = "chemistry"
     img = "buzzwords.jpg"
 
   [[params.intro.item]]
@@ -47,7 +47,7 @@ languageCode = "en-us"
     description = "Contact us. We'll be happy to join an existing team or help you building an application from scratch."
     url = "contact"
     button = "Contact"
-    icon = "icon-people"
+    icon = "people"
     img = "cat-dog-group.jpg"
 
   # Work section
@@ -84,22 +84,22 @@ languageCode = "en-us"
     [[params.services.item]]
       title = "Back-End"
       description = "We use <span class='ruby-lang'>Ruby</span> and <span class='ror-lang'>Ruby On Rails</span> for most of our projects. However, when it is not enough - when we need really high perfomance - we add <span class='go-lang'>Go</span> to the mix."
-      icon = "icon-layers"
+      icon = "layers"
 
     [[params.services.item]]
       title = "Front-end"
       description = "<span class='react-lang'>React</span> with <span class='redux-lang'>Redux</span> is the our JavaScript framework. We use <span class='node-lang'>Node.js</span> and <span class='es6-lang'>ES6</span>, the latest version of JavaScript, for our front-end development."
-      icon = "icon-screen-desktop"
+      icon = "screen-desktop"
 
     [[params.services.item]]
       title = "Mobile"
       description = "Though we use conventional <span class='swift-lang'>Swift</span> for iOS development and <span class='java-lang'>Java</span> for Android development, we also can use <span class='xamarin-lang'>Xamarin</span> and <span class='ionic-lang'>Ionic</span> if it suits best for your project."
-      icon = "icon-screen-smartphone"
+      icon = "screen-smartphone"
 
     [[params.services.item]]
       title = "Infrastructure"
       description = "We are using <span class='docker-lang'>Docker</span> for containerization, <span class='aws-lang'>Amazon Web services</span> as a platform and <span class='ansible-lang'>Ansible</span> to automate infrastracture management."
-      icon = "icon-wrench"
+      icon = "wrench"
 
   # About section
   [params.about]
@@ -142,9 +142,9 @@ languageCode = "en-us"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-social-skype", '<a href="skype:esherkunov">esherkunov</a>'],
-        ["icon-envelope", '<a href="mailto:info@greencaps.rocks">info@greencaps.rocks</a>'],
-        ["icon-globe", '<a href="http://greencaps.rocks/" target="_blank">greencaps.rocks</a>']
+        ["social-skype", '<a href="skype:esherkunov">esherkunov</a>'],
+        ["envelope", '<a href="mailto:info@greencaps.rocks">info@greencaps.rocks</a>'],
+        ["globe", '<a href="http://greencaps.rocks/" target="_blank">greencaps.rocks</a>']
       ]
 
     name = "Name"

@@ -11,7 +11,13 @@
                 <ul class="fh5co-contact-info">
                     {{ range .Site.Params.contact.details }}
                     <li class="fh5co-contact-address ">
-                        <i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . | markdownify }}{{ end }}
+                      <span class="icon">
+                        {{ with index . 0}}
+                        {{ $pathToIcon := . | printf "%s%s" "icons/" | printf "%s.svg" }}
+                        {{ partial $pathToIcon }}
+                        {{ end }}
+                      </span>{{ with index . 1}}{{ . | markdownify }}{{ end }}
+                      <i class=""></i>
                     </li>
                     {{ end }}
                 </ul>

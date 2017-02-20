@@ -13,7 +13,10 @@
 			<div class="row">
 			{{ range .Site.Params.services.item }}
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
-					<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
+          {{ $pathToIcon := .icon | printf "%s%s" "icons/" | printf "%s.svg" }}
+					<span class="icon to-animate-2">
+            {{ partial $pathToIcon }}
+          </span>
 					<h3>{{ .title | markdownify }}</h3>
 					<p>{{ .description | markdownify }}</p>
 				</div>

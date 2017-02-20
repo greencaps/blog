@@ -1,27 +1,3 @@
-// Import
-$font-primary: 'Source Sans Pro', Arial, sans-serif;
-
-// Overrides
-$grid-gutter-width: 40px !default;
-$border-radius-base: 4px !default;
-$padding-base-vertical: 14px !default;
-
-$brand-primary-only-for-this-file: #18171d !default;
-$brand-secondary-only-for-this-file: #45de52 !default;
-
-$brand-white: #fff;
-$brand-black: #000;
-$brand-darker: #444;
-$brand-gray: #ccc;
-$brand-lighter: #e9e9e9;
-$brand-body-color: #818892;
-$brand-selection-color: #f9f6f0;
-$brand-overlay-color: #3b3d40;
-$brand-bg-color: $brand-white;
-
-$input-border-focus: $brand-primary-only-for-this-file !default;
-$form-group-margin-bottom: 30px !default;
-
 // Mixin
 @mixin transition($transition) {
   -moz-transition: $transition ease;
@@ -143,7 +119,7 @@ $form-group-margin-bottom: 30px !default;
 }
 
 @mixin fh5co-gradient() {
-  background-color: $brand-primary-only-for-this-file;
+  background-color: $brand-primary-override;
 }
 
 @font-face {
@@ -196,10 +172,10 @@ body {
 }
 
 a {
-  color: $brand-primary-only-for-this-file;
+  color: $brand-primary-override;
   @include transition(.5s);
   &:hover, &:active, &:focus {
-    color: $brand-primary-only-for-this-file;
+    color: $brand-primary-override;
     outline: none;
   }
 }
@@ -272,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
     .navbar-brand {
-      color: $brand-primary-only-for-this-file !important;
+      color: $brand-primary-override !important;
     }
     #navbar {
       li {
@@ -280,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
           color: rgba(0, 0, 0, .5) !important;
           @include transition(.3s);
           &:hover {
-            color: $brand-primary-only-for-this-file !important;
+            color: $brand-primary-override !important;
           }
           span {
             &:before {
@@ -292,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
           a {
             background: transparent;
             background: none;
-            color: $brand-primary-only-for-this-file !important;
+            color: $brand-primary-override !important;
             span {
               &:before {
                 visibility: visible;
@@ -346,9 +322,7 @@ h1, h2, h3, h4, h5, h6 {
           }
         }
         &:hover {
-          // color: $brand-primary-only-for-this-file;
           color: $brand-white;
-          // color: rgba(255,255,255,1);
           span {
             &:before {
               visibility: visible;
@@ -409,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
     top: 0;
     .navbar-brand {
-      color: $brand-primary-only-for-this-file;
+      color: $brand-primary-override;
     }
     #navbar {
       li {
@@ -417,20 +391,20 @@ h1, h2, h3, h4, h5, h6 {
           color: rgba(0, 0, 0, .5);
           @include transition(.3s);
           &:hover {
-            color: $brand-primary-only-for-this-file;
+            color: $brand-primary-override;
           }
         }
         &.active {
           a {
             background: transparent;
             background: none;
-            color: $brand-primary-only-for-this-file;
+            color: $brand-primary-override;
             span {
               &:before {
                 visibility: visible;
                 -webkit-transform: scaleX(1);
                 transform: scaleX(1);
-                background-color: $brand-primary-only-for-this-file;
+                background-color: $brand-primary-override;
               }
             }
           }
@@ -453,7 +427,7 @@ h1, h2, h3, h4, h5, h6 {
       letter-spacing: 2px;
       color: #adadad;
       em {
-        color: $brand-primary-only-for-this-file;
+        color: $brand-primary-override;
         font-style: normal;
       }
     }
@@ -471,7 +445,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   width: 100%;
 
-  background-color: $brand-primary-only-for-this-file;
+  background-color: $brand-primary-override;
   color: #fff;
   overflow: hidden;
   .gradient {
@@ -612,7 +586,7 @@ h1, h2, h3, h4, h5, h6 {
       z-index: 10;
       .fh5co-intro-icon {
         font-size: 50px;
-        color: $brand-secondary-only-for-this-file;
+        color: $brand-secondary-override;
         margin-bottom: 30px;
         display: block;
       }
@@ -630,7 +604,7 @@ h1, h2, h3, h4, h5, h6 {
       > .fh5co-text {
         color: $brand-white;
         .fh5co-intro-icon {
-          color: $brand-secondary-only-for-this-file;
+          color: $brand-secondary-override;
         }
 
       }
@@ -641,8 +615,8 @@ h1, h2, h3, h4, h5, h6 {
         border: 2px solid $brand-white !important;
         background: transparent;
         &:hover {
-          background: $brand-primary-only-for-this-file !important;
-          border: 2px solid $brand-primary-only-for-this-file !important;
+          background: $brand-primary-override !important;
+          border: 2px solid $brand-primary-override !important;
         }
       }
     }
@@ -668,7 +642,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 120px;
     width: 120px;
     margin: 0 auto;
-    border: 2px solid $brand-primary-only-for-this-file;
+    border: 2px solid $brand-primary-override;
     line-height: 0px;
     display: table;
     text-align: center;
@@ -759,7 +733,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-services {
   position: relative;
-  background-color: $brand-primary-only-for-this-file;
+  background-color: $brand-primary-override;
   color: #fff;
   overflow: hidden;
   @include fh5co-gradient;
@@ -807,7 +781,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-counters {
-  background: $brand-primary-only-for-this-file;
+  background: $brand-primary-override;
   overflow: hidden;
   background-color: transparent;
   background-size: cover;
@@ -884,7 +858,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .fh5co-counter-icon {
       font-size: 40px;
-      color: $brand-primary-only-for-this-file;
+      color: $brand-primary-override;
     }
     .fh5co-counter-number {
       font-size: 70px;
@@ -915,7 +889,7 @@ h1, h2, h3, h4, h5, h6 {
       border-left: none;
       padding: 30px;
       background: $brand-white;
-      background: $brand-primary-only-for-this-file;
+      background: $brand-primary-override;
       font-size: 20px;
       font-weight: 300;
 
@@ -928,7 +902,7 @@ h1, h2, h3, h4, h5, h6 {
         left: 40px;
         border-top: 10px solid black;
         border-top-color: $brand-white;
-        border-top-color: $brand-primary-only-for-this-file;
+        border-top-color: $brand-primary-override;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
       }
@@ -945,7 +919,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-left: 20px;
       font-weight: 400;
       a {
-        color: $brand-primary-only-for-this-file;
+        color: $brand-primary-override;
         &:hover {
           text-decoration: underline;
         }
@@ -1033,7 +1007,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-person {
   background-color: $brand-white;
   border: 2px solid lighten($brand-black, 95%);
-  color: $brand-primary-only-for-this-file;
+  color: $brand-primary-override;
   padding: 80px 30px 30px 30px;
   float: left;
   width: 100%;
@@ -1057,7 +1031,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   h3 {
     margin-bottom: 0px;
-    color: $brand-primary-only-for-this-file !important;
+    color: $brand-primary-override !important;
   }
   .fh5co-position {
     color: lighten($brand-black, 30%);
@@ -1081,7 +1055,7 @@ h1, h2, h3, h4, h5, h6 {
   &:active, &:focus {
     outline: none;
     box-shadow: none;
-    border-color: $brand-primary-only-for-this-file;
+    border-color: $brand-primary-override;
   }
 }
 
@@ -1138,7 +1112,7 @@ h1, h2, h3, h4, h5, h6 {
         display: block;
         width: 80px;
         height: 2px;
-        background: $brand-primary-only-for-this-file;
+        background: $brand-primary-override;
         left: 0%;
         margin-left: 0px;
         bottom: 0;
@@ -1150,7 +1124,7 @@ h1, h2, h3, h4, h5, h6 {
       display: block;
       width: 80px;
       height: 2px;
-      background: $brand-primary-only-for-this-file;
+      background: $brand-primary-override;
       left: 50%;
       margin-left: -40px;
       bottom: 0;
@@ -1182,7 +1156,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   &.active i {
     &::before, &::after {
-      background: $brand-primary-only-for-this-file;
+      background: $brand-primary-override;
     }
   }
   &:hover, &:focus, &:active {
@@ -1194,17 +1168,17 @@ h1, h2, h3, h4, h5, h6 {
     @include inline-block;
     width: 25px;
     height: 3px;
-    color: $brand-primary-only-for-this-file;
+    color: $brand-primary-override;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: $brand-primary-only-for-this-file;
+    background: $brand-primary-override;
     transition: all .2s ease-out;
     &::before, &::after {
       content: '';
       width: 25px;
       height: 3px;
-      background: $brand-primary-only-for-this-file;
+      background: $brand-primary-override;
       position: absolute;
       left: 0;
       @include transition(.2s);
@@ -1304,13 +1278,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
   @include transition(.3s);
   &.btn-primary {
-    background: $brand-primary-only-for-this-file;
+    background: $brand-primary-override;
     color: $brand-white;
     border: none !important;
     border: 2px solid transparent !important;
     &:hover, &:active, &:focus {
       box-shadow: none;
-      background: $brand-primary-only-for-this-file;
+      background: $brand-primary-override;
     }
   }
   &:hover, &:active, &:focus {
@@ -1353,11 +1327,11 @@ h1, h2, h3, h4, h5, h6 {
         border-bottom: none;
       }
       &.social-box {
-        background: $brand-primary-only-for-this-file;
+        background: $brand-primary-override;
         color: $brand-white;
       }
       &.social-circle {
-        background: $brand-primary-only-for-this-file;
+        background: $brand-primary-override;
         color: $brand-white;
         @include border-radius(50%);
       }
@@ -1369,13 +1343,13 @@ h1, h2, h3, h4, h5, h6 {
   }
   &.social-box {
     a {
-      background: $brand-primary-only-for-this-file;
+      background: $brand-primary-override;
       color: $brand-white;
     }
   }
   &.social-circle {
     a {
-      background: $brand-primary-only-for-this-file;
+      background: $brand-primary-override;
       color: $brand-white;
       @include border-radius(50%);
     }

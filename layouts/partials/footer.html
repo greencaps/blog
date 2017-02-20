@@ -1,11 +1,14 @@
 <footer id="footer" role="contentinfo">
-  <a href="#" class="gotop js-gotop"><i class="icon-arrow-up-circle"></i></a>
+  <a href="#" class="gotop js-gotop">
+    <span class="icon">
+      {{ partial "icons/arrow-up-circle.svg" }}
+    </span>
+  </a>
 
   <div class="container">
     <div class="">
       <div class="col-md-12 text-center">
         <p>{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</p>
-
       </div>
     </div>
   </div>

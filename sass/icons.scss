@@ -1,0 +1,34 @@
+@import "bootstrap/variables";
+
+@mixin icon($color: $brand-body-color, $width: 20px, $height: $width) {
+  display: inline-block;
+  width: $width;
+  height: $height;
+
+  fill: $color;
+}
+
+#fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
+  @include icon($brand-secondary-override, 50px);
+
+  margin-bottom: 30px;
+}
+
+#fh5co-services .icon {
+  @include icon($brand-white, 70px);
+
+  margin-bottom: 30px;
+}
+
+#fh5co-contact .fh5co-contact-info li .icon {
+  @include icon();
+  position: absolute;
+  top: .2em;
+  left: 0;
+}
+
+#footer {
+  .icon {
+    @include icon($brand-body-color, 60px);
+  }
+}
