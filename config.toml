@@ -2,8 +2,6 @@
 baseurl = "http://greencaps.rocks/"
 title = "Green Caps - geeks ready to rescue your project"
 languageCode = "en-us"
-theme = "hugo-elate-theme"
-
 [params]
 
   # Meta

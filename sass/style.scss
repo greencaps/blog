@@ -1,3 +1,6 @@
+// Import
+// @import 'bootstrap/mixins';
+// @import 'bootstrap/variables';
 $font-primary: 'Source Sans Pro', Arial, sans-serif;
 
 // Overrides
@@ -5,8 +8,8 @@ $grid-gutter-width: 40px !default;
 $border-radius-base: 4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #18171d !default;
-$brand-secondary: #45de52 !default;
+$brand-primary-only-for-this-file: #18171d !default;
+$brand-secondary-only-for-this-file: #45de52 !default;
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -18,7 +21,7 @@ $brand-selection-color: #f9f6f0;
 $brand-overlay-color: #3b3d40;
 $brand-bg-color: $brand-white;
 
-$input-border-focus: $brand-primary !default;
+$input-border-focus: $brand-primary-only-for-this-file !default;
 $form-group-margin-bottom: 30px !default;
 
 // Mixin
@@ -142,25 +145,16 @@ $form-group-margin-bottom: 30px !default;
 }
 
 @mixin fh5co-gradient() {
-  // Gradient
-  background-color: $brand-primary;
-  /* IE9, iOS 3.2+ */
-  // background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-  // background-image: -webkit-gradient(linear, 0% 0%, 100% 100%,color-stop(0, rgb(63, 149, 234)),color-stop(1, rgb(82, 211, 170)));
-  /* Android 2.3 */
-  // background-image: -webkit-repeating-linear-gradient(top left,rgb(63, 149, 234) 0%,rgb(82, 211, 170) 100%);
-  /* IE10+ */
-  // background-image: repeating-linear-gradient(to bottom right,rgb(63, 149, 234) 0%,rgb(82, 211, 170) 100%);
-  // background-image: -ms-repeating-linear-gradient(top left,rgb(63, 149, 234) 0%,rgb(82, 211, 170) 100%);
+  background-color: $brand-primary-only-for-this-file;
 }
 
 @font-face {
   font-family: 'icomoon';
-  src: url('../fonts/icomoon/icomoon.eot?srf3rx');
-  src: url('../fonts/icomoon/icomoon.eot?srf3rx#iefix') format('embedded-opentype'),
-  url('../fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'),
-  url('../fonts/icomoon/icomoon.woff?srf3rx') format('woff'),
-  url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
+  src: url('/fonts/icomoon/icomoon.eot?srf3rx');
+  src: url('/fonts/icomoon/icomoon.eot?srf3rx#iefix') format('embedded-opentype'),
+  url('/fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'),
+  url('/fonts/icomoon/icomoon.woff?srf3rx') format('woff'),
+  url('/fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -181,16 +175,13 @@ $form-group-margin-bottom: 30px !default;
 
 }
 
-// Import
-@import 'bootstrap/mixins';
-@import 'bootstrap/variables';
 
 /* =======================================================
-*
-* 	Template Style
-*	Edit this section
-*
-* ======================================================= */
+ *
+ * 	Template Style
+ *	Edit this section
+ *
+ * ======================================================= */
 
 // Template Base
 body {
@@ -207,10 +198,10 @@ body {
 }
 
 a {
-  color: $brand-primary;
+  color: $brand-primary-only-for-this-file;
   @include transition(.5s);
   &:hover, &:active, &:focus {
-    color: $brand-primary;
+    color: $brand-primary-only-for-this-file;
     outline: none;
   }
 }
@@ -283,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
     .navbar-brand {
-      color: $brand-primary !important;
+      color: $brand-primary-only-for-this-file !important;
     }
     #navbar {
       li {
@@ -291,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
           color: rgba(0, 0, 0, .5) !important;
           @include transition(.3s);
           &:hover {
-            color: $brand-primary !important;
+            color: $brand-primary-only-for-this-file !important;
           }
           span {
             &:before {
@@ -303,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
           a {
             background: transparent;
             background: none;
-            color: $brand-primary !important;
+            color: $brand-primary-only-for-this-file !important;
             span {
               &:before {
                 visibility: visible;
@@ -357,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
           }
         }
         &:hover {
-          // color: $brand-primary;
+          // color: $brand-primary-only-for-this-file;
           color: $brand-white;
           // color: rgba(255,255,255,1);
           span {
@@ -420,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
     top: 0;
     .navbar-brand {
-      color: $brand-primary;
+      color: $brand-primary-only-for-this-file;
     }
     #navbar {
       li {
@@ -428,20 +419,20 @@ h1, h2, h3, h4, h5, h6 {
           color: rgba(0, 0, 0, .5);
           @include transition(.3s);
           &:hover {
-            color: $brand-primary;
+            color: $brand-primary-only-for-this-file;
           }
         }
         &.active {
           a {
             background: transparent;
             background: none;
-            color: $brand-primary;
+            color: $brand-primary-only-for-this-file;
             span {
               &:before {
                 visibility: visible;
                 -webkit-transform: scaleX(1);
                 transform: scaleX(1);
-                background-color: $brand-primary;
+                background-color: $brand-primary-only-for-this-file;
               }
             }
           }
@@ -464,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
       letter-spacing: 2px;
       color: #adadad;
       em {
-        color: $brand-primary;
+        color: $brand-primary-only-for-this-file;
         font-style: normal;
       }
     }
@@ -482,7 +473,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   width: 100%;
 
-  background-color: $brand-primary;
+  background-color: $brand-primary-only-for-this-file;
   color: #fff;
   overflow: hidden;
   .gradient {
@@ -623,7 +614,7 @@ h1, h2, h3, h4, h5, h6 {
       z-index: 10;
       .fh5co-intro-icon {
         font-size: 50px;
-        color: $brand-secondary;
+        color: $brand-secondary-only-for-this-file;
         margin-bottom: 30px;
         display: block;
       }
@@ -641,7 +632,7 @@ h1, h2, h3, h4, h5, h6 {
       > .fh5co-text {
         color: $brand-white;
         .fh5co-intro-icon {
-          color: $brand-secondary;
+          color: $brand-secondary-only-for-this-file;
         }
 
       }
@@ -652,8 +643,8 @@ h1, h2, h3, h4, h5, h6 {
         border: 2px solid $brand-white !important;
         background: transparent;
         &:hover {
-          background: $brand-primary !important;
-          border: 2px solid $brand-primary !important;
+          background: $brand-primary-only-for-this-file !important;
+          border: 2px solid $brand-primary-only-for-this-file !important;
         }
       }
     }
@@ -679,7 +670,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 120px;
     width: 120px;
     margin: 0 auto;
-    border: 2px solid $brand-primary;
+    border: 2px solid $brand-primary-only-for-this-file;
     line-height: 0px;
     display: table;
     text-align: center;
@@ -770,7 +761,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-services {
   position: relative;
-  background-color: $brand-primary;
+  background-color: $brand-primary-only-for-this-file;
   color: #fff;
   overflow: hidden;
   @include fh5co-gradient;
@@ -818,7 +809,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-counters {
-  background: $brand-primary;
+  background: $brand-primary-only-for-this-file;
   overflow: hidden;
   background-color: transparent;
   background-size: cover;
@@ -895,7 +886,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .fh5co-counter-icon {
       font-size: 40px;
-      color: $brand-primary;
+      color: $brand-primary-only-for-this-file;
     }
     .fh5co-counter-number {
       font-size: 70px;
@@ -926,7 +917,7 @@ h1, h2, h3, h4, h5, h6 {
       border-left: none;
       padding: 30px;
       background: $brand-white;
-      background: $brand-primary;
+      background: $brand-primary-only-for-this-file;
       font-size: 20px;
       font-weight: 300;
 
@@ -939,7 +930,7 @@ h1, h2, h3, h4, h5, h6 {
         left: 40px;
         border-top: 10px solid black;
         border-top-color: $brand-white;
-        border-top-color: $brand-primary;
+        border-top-color: $brand-primary-only-for-this-file;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
       }
@@ -956,7 +947,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-left: 20px;
       font-weight: 400;
       a {
-        color: $brand-primary;
+        color: $brand-primary-only-for-this-file;
         &:hover {
           text-decoration: underline;
         }
@@ -1044,7 +1035,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-person {
   background-color: $brand-white;
   border: 2px solid lighten($brand-black, 95%);
-  color: $brand-primary;
+  color: $brand-primary-only-for-this-file;
   padding: 80px 30px 30px 30px;
   float: left;
   width: 100%;
@@ -1068,7 +1059,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   h3 {
     margin-bottom: 0px;
-    color: $brand-primary !important;
+    color: $brand-primary-only-for-this-file !important;
   }
   .fh5co-position {
     color: lighten($brand-black, 30%);
@@ -1092,7 +1083,7 @@ h1, h2, h3, h4, h5, h6 {
   &:active, &:focus {
     outline: none;
     box-shadow: none;
-    border-color: $brand-primary;
+    border-color: $brand-primary-only-for-this-file;
   }
 }
 
@@ -1149,7 +1140,7 @@ h1, h2, h3, h4, h5, h6 {
         display: block;
         width: 80px;
         height: 2px;
-        background: $brand-primary;
+        background: $brand-primary-only-for-this-file;
         left: 0%;
         margin-left: 0px;
         bottom: 0;
@@ -1161,7 +1152,7 @@ h1, h2, h3, h4, h5, h6 {
       display: block;
       width: 80px;
       height: 2px;
-      background: $brand-primary;
+      background: $brand-primary-only-for-this-file;
       left: 50%;
       margin-left: -40px;
       bottom: 0;
@@ -1193,7 +1184,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   &.active i {
     &::before, &::after {
-      background: $brand-primary;
+      background: $brand-primary-only-for-this-file;
     }
   }
   &:hover, &:focus, &:active {
@@ -1205,17 +1196,17 @@ h1, h2, h3, h4, h5, h6 {
     @include inline-block;
     width: 25px;
     height: 3px;
-    color: $brand-primary;
+    color: $brand-primary-only-for-this-file;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: $brand-primary;
+    background: $brand-primary-only-for-this-file;
     transition: all .2s ease-out;
     &::before, &::after {
       content: '';
       width: 25px;
       height: 3px;
-      background: $brand-primary;
+      background: $brand-primary-only-for-this-file;
       position: absolute;
       left: 0;
       @include transition(.2s);
@@ -1315,13 +1306,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
   @include transition(.3s);
   &.btn-primary {
-    background: $brand-primary;
+    background: $brand-primary-only-for-this-file;
     color: $brand-white;
     border: none !important;
     border: 2px solid transparent !important;
     &:hover, &:active, &:focus {
       box-shadow: none;
-      background: $brand-primary;
+      background: $brand-primary-only-for-this-file;
     }
   }
   &:hover, &:active, &:focus {
@@ -1364,11 +1355,11 @@ h1, h2, h3, h4, h5, h6 {
         border-bottom: none;
       }
       &.social-box {
-        background: $brand-primary;
+        background: $brand-primary-only-for-this-file;
         color: $brand-white;
       }
       &.social-circle {
-        background: $brand-primary;
+        background: $brand-primary-only-for-this-file;
         color: $brand-white;
         @include border-radius(50%);
       }
@@ -1380,13 +1371,13 @@ h1, h2, h3, h4, h5, h6 {
   }
   &.social-box {
     a {
-      background: $brand-primary;
+      background: $brand-primary-only-for-this-file;
       color: $brand-white;
     }
   }
   &.social-circle {
     a {
-      background: $brand-primary;
+      background: $brand-primary-only-for-this-file;
       color: $brand-white;
       @include border-radius(50%);
     }
@@ -1471,6 +1462,3 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
-@import "lang";
-@import "tweaks";

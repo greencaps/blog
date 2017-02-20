@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "scss": "node-sass --output-style compressed --include-path sass sass/style.scss   static/css/style.css",
+    "scss": "node-sass --output-style compressed  sass/main.scss   static/css/main.css",
     "clean": "rimraf public",
     "build:hugo": "hugo",
     "build": "npm run clean && npm run scss && npm run build:hugo",
