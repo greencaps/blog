@@ -27,13 +27,18 @@
       .on('click', '.js-fh5co-nav-toggle', function (event) {
         event.preventDefault();
 
-        if ($('#navbar')
+        var navbar = $('#navbar');
+        if (navbar
           .is(':visible')) {
           $(this)
             .removeClass('active');
+          navbar
+            .removeClass('in');
         } else {
           $(this)
             .addClass('active');
+          navbar
+            .addClass('in');
         }
       });
   };
