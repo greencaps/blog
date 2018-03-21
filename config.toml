@@ -60,7 +60,7 @@ languageCode = "en-us"
     [[params.work.row]]
       img = "skies-land.jpg"
       alt = "Crowdfunding platform skies.land"
-      title = "Crowdfunding platform skies.land"
+      title = "Skies.land"
       subtitle = "Crowdfunding platform.<br /><a href='https://skies.land/'>skies.land</a>"
 
     [[params.work.row]]
