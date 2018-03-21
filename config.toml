@@ -58,18 +58,6 @@ languageCode = "en-us"
     footertext = ''
 
     [[params.work.row]]
-      img = "imboss.jpg"
-      alt = "ImBoss"
-      title = "ImBoss"
-      subtitle = "Best accounting app for entrepreneur.<br /><a href='http://imboss.ru'>imboss.ru</a>"
-
-    [[params.work.row]]
-      img = "english-world.jpg"
-      alt = "English World"
-      title = "English World"
-      subtitle = "Learn you English for great good!<br /><a href='http://ew.am/'>ew.am</a>"
-
-    [[params.work.row]]
       img = "do-it-with-love.jpg"
       alt = "Do it with love"
       title = "Do it with love"
