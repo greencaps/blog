@@ -108,7 +108,7 @@ languageCode = "en-us"
     description = "Look at those eyes. Eyes tell no lies."
 
     [[params.about.item]]
-      name = "Alexei Sviridov"
+      name = "Alexei Sidorov"
       position = "Web designer and Illustrator"
       description = "He creates user-friendly UIs and draws stunning graphics. Check his works at <a href='http://aceed.ru'>aceed.ru</a>."
       img = "aceed.jpg"
@@ -123,14 +123,14 @@ languageCode = "en-us"
 
     [[params.about.item]]
       name = "Ivan Bystrov"
-      position = "Ruby Developer"
-      description = "Back-end developer. Despite the fact that he uses Ruby to do his tasks, he is our Go evangelist."
+      position = "Full Stack Ruby On Rails Developer"
+      description = "Despite the fact that he uses Ruby to do his tasks, he is our Elixir evangelist. Also use Angular or React in his work."
       img = "ivan-bystrov.jpg"
       alt = "Ivan Bystrov"
 
     [[params.about.item]]
       name = "Alexander Ulizko"
-      position = "Full-stack JavaScript developer"
+      position = "Full Stack JavaScript Developer"
       description = "Our front-end wizard. Uses React.js and Node.js as his designated weapon. Check his <a href='https://github.com/aulizko' target='_blank'>github</a> account."
       img = "alexander-ulizko.jpg"
       alt = "Alexander Ulizko"
