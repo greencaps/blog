@@ -58,10 +58,22 @@ languageCode = "en-us"
     footertext = ''
 
     [[params.work.row]]
+      img = "skies-land.jpg"
+      alt = "Crowdfunding platform skies.land"
+      title = "Crowdfunding platform skies.land"
+      subtitle = "Crowdfunding platform.<br /><a href='https://skies.land/'>skies.land</a>"
+
+    [[params.work.row]]
       img = "do-it-with-love.jpg"
       alt = "Do it with love"
       title = "Do it with love"
       subtitle = "We offer you to make a personal experiment and pump your actions with love.<br /><a href='http://doitwithlove.net/'>doitwithlove.net</a>"
+
+    [[params.work.row]]
+      img = "island-in-the-sea-wallpaper.jpg"
+      alt = "Island Android Wallpaper"
+      title = "Island Android Wallpaper"
+      subtitle = "Android live wallpaper.<br /><a href='https://play.google.com/store/apps/details?id=ru.cherepovets3d.wallpaper'>Google Play</a>"
 
   # Services section
   [params.services]
