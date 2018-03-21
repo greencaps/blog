@@ -149,7 +149,7 @@ languageCode = "en-us"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["social-skype", '<a href="skype:esherkunov">esherkunov</a>'],
+        ["social-skype", '<a href="skype:aceedseed">aceedseed</a>'],
         ["envelope", '<a href="mailto:info@greencaps.rocks">info@greencaps.rocks</a>'],
         ["globe", '<a href="http://greencaps.rocks/" target="_blank">greencaps.rocks</a>']
       ]
