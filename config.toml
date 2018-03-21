@@ -117,7 +117,7 @@ languageCode = "en-us"
     [[params.about.item]]
       name = "Evgeny Sherkunov"
       position = "Full Stack Ruby On Rails Developer"
-      description = "Mostly back-end developer on Ruby or Go, but no problem in use Angular or React for front-end. There is his <a href='//sherkunov.name' target='_blank'>website</a>."
+      description = "Mostly back end developer on Ruby or Go, but no problem in use Angular or React for front end. There is his <a href='//sherkunov.name' target='_blank'>website</a>."
       img = "evgeny-sherkunov.jpg"
       alt = "Evgeny Sherkunov"
 
@@ -131,9 +131,16 @@ languageCode = "en-us"
     [[params.about.item]]
       name = "Alexander Ulizko"
       position = "Full Stack JavaScript Developer"
-      description = "Our front-end wizard. Uses React.js and Node.js as his designated weapon. Check his <a href='https://github.com/aulizko' target='_blank'>github</a> account."
+      description = "Our front end wizard. Uses React.js and Node.js as his designated weapon. Check his <a href='https://github.com/aulizko' target='_blank'>github</a> account."
       img = "alexander-ulizko.jpg"
       alt = "Alexander Ulizko"
+
+    [[params.about.item]]
+      name = "Evgeny Ustinov"
+      position = "Front End Developer"
+      description = "TypeScript / JavaScript developer. Use Angular or React."
+      img = "evgeny-ustinov.jpg"
+      alt = "Evgeny Ustinov"
 
   # Contact section
   [params.contact]
